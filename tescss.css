@@ -1,0 +1,44 @@
+/* css由一个选择器和一个以分号分隔的声明列表组成，每个声明都由一个属性：值对组成 
+/* 选择器是指应用CSS规则的HTML元素 
+/*通用选择器：可以选择任何类型的元素
+
+*{
+    color:purple;
+}
+/* 类型选择器（或元素选择器）将选择给定元素类型的所有元素，语法只是元素的名称 */
+div{
+    color: white;
+}
+/* 类选择器将选择具有给定类的所有元素 */
+/* 类选择器语法：一个句点紧跟在类属性的区分大小写的值之后，类不需要唯一，可以在任意数量元素上使用相同的类 */
+/* class属性可以将多个类作为空格分隔的列表添加到单个元素中 */
+.alert-text{
+    color: red;
+}
+/* ID选择器：选择具有给定ID的元素 */
+/* 使用#进行ID元素定位 */
+/* 一个元素只能有一个ID，ID属性不应该包含任何空格 */
+#title{
+    background-color: red;
+}
+/* 分组选择器：多组元素共享一组样式声明 */
+.read{
+    color:white;
+    background-color: black;
+}
+.unread{
+    color: white;
+    background-color: black;
+}
+/* 将多个公用的样式声明选择器组合在一起，作为一个逗号分隔的列表 */
+.read,
+.unread{
+    color:white;
+    background-color: black;
+}
+.read{
+}
+.unread{
+}
+/* color:属性设置元素的文本颜色 */
+/* background-color：设置元素的背景颜色 */

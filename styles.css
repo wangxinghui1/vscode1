@@ -1,0 +1,19 @@
+div{
+    color: white;
+    background-color: black;
+}
+p{
+    color:red;
+}
+        /* <!--css选择器优先级 -->
+        <!-- ID选择器>类选择器>类型选择器 -->
+        <!-- 较大数量的单个选择器大于较小数量的相同选择器 --> */
+        /* 子继承父 */
+        /* 最后一个是赢家 */
+        .sub{
+            color:black;
+        }
+        .main.list{
+            color: white;
+        }
+        /* .main.list更具体,所以优先级高 */

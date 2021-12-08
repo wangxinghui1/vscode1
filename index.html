@@ -1,0 +1,35 @@
+<!DOCTPYE>
+<html>
+    <head>
+        <!-- 外部CSS -->
+        <!-- 使用link元素将css文件链接到html -->
+        <!-- href表示css文件的位置 -->
+        <!-- rel是必须的，指定HTML文件和链接文件之间的关系 -->
+        <!-- stylesheet代表指向样式表资源 -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- 内部CSS：在HTML文件本身添加CSS -->
+        <!-- 内部CSS：将所有规则放在一堆开始和结束</style标记内> -->
+        <!-- 内部CSS:将style放在<head>内,不需要使用link-->
+        <style>
+            div{
+                color: white;
+                background-color: black;
+            }
+            p{
+                color: red;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <!-- 内联CSS:直接向HTML元素添加样式-->
+        <!-- 不推荐直接将CSS添加到HTML的方法 -->
+        <!-- 内联CSS会将外部CSS和内部CSS直接覆盖-->
+        <div style="color: black;background-color: blue;"></div>
+        <!-- font-family表示字体元素类型 -->
+        <!-- font-size表示字体大小 -->
+        <!-- font-weight表示字体粗细 -->
+        <!-- text-align:表示水平对齐文本-->
+        <!-- <img>:图像高和宽 -->
+    </body>
+</html>
